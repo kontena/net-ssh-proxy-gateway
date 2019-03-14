@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kontena/net-ssh-proxy-gateway.svg?branch=master)](https://travis-ci.org/kontena/net-ssh-proxy-gateway)
 [![Gem Version](https://badge.fury.io/rb/net-ssh-proxy-gateway.svg)](https://badge.fury.io/rb/net-ssh-proxy-gateway)
-[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/gems/net-ssh-proxy-gateway)
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](https://www.rubydoc.info/github/kontena/net-ssh-proxy-gateway)
 
 # Net::SSH::Proxy::Gateway
 
