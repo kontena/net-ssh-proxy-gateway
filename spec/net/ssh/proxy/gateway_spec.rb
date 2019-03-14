@@ -4,7 +4,7 @@ RSpec.describe Net::SSH::Proxy::Gateway do
   end
 
   let(:socket) { instance_double(Socket, flush: true, readpartial: nil) }
-  let(:gateway) { instance_double(Net::SSH::Gateway) }
+  let(:gateway) { instance_double(Net::SSH::Gateway, active?: true) }
 
   before do
     allow(socket).to receive(:closed?).and_return(true)
