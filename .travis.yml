@@ -1,4 +1,3 @@
----
 sudo: false
 language: ruby
 cache: bundler
@@ -21,3 +20,5 @@ deploy:
   on:
     tags: true
     rvm: '2.6'
+  api_key:
+    secure: cOrwE9aso+lLtjQxcLrazKrUhuKNh5MppzYtikA0t0OGukUPNv0apXE1vY1OhXZ71NH7Q9YezYj+uFKTqh/FRYxdfMs02a+uYRD955TqFfJljlMQBkeNOm7SwFTbfSNbLozqcDoTEGKsw+03vj7Vdsbbz1MWtArG0RDotVHfT0xwiuEeOznMvaUFaybnLxNnFGWDsFl0q9sogh1ZPifZDf4Qkd4UEf80dKDD+LQ1gjfFXVe/B7GJn09pbYsi6JK5I6dCAdE1vg8g95dEB+xKvFNQndl5GPcT+8kmONijiQnrRD5MymFp7/ylGgu85oMjBTtWi0H8UABROPs+1DvkMHU3/hZPZ5acanBGhbgv5YHmOMPdR7cTXfzQhfoka6Eynrq99nlzA6iRtwHMMV1yWzR7/bMPnS5Bop4Bgdlwh4lB44kJ9BREYULVijtSEvnpAem7IYhVR55wCxifIHdOvSd8TqEEeDma6dtkffwVlwwfSAmEEaXUVMYvQN0JwcLCaoLAY0S0I2wO0Jv3oWj+rujkItFtYwPA6PZlEMe9OIi0zMWKUpKeMyyMqHbc3V0dVcI1WZyBuBC5PGboJW0mgmDaUssr5I6lY6pjun0tsHz2qHoyDDFrwA2XtvuWK0LoniPrrgcsu2c2hsvHWKqR/lJcS2eLMrOjhVoVGaF016A=
