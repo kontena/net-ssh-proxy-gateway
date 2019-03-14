@@ -1,0 +1,23 @@
+---
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+- '2.3'
+- '2.4'
+- '2.5'
+- '2.6'
+- ruby-head
+matrix:
+  allow_failures:
+  - rvm: ruby-head
+script:
+- bundle install
+- bundle exec rspec spec/
+before_install: gem install bundler
+deploy:
+  provider: rubygems
+  gem: net-ssh-proxy-gateway
+  on:
+    tags: true
+    rvm: '2.6'
